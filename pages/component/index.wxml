@@ -1,0 +1,24 @@
+<!--pages/component/index.wxml-->
+<view class="index">
+    <view class="index-hd">
+        <image class="index-logo" src="./resource/kind/icon_component.png"></image>
+        <view class="index-desc">以下将展示小程序官方组件能力，组件样式仅供参考，
+            开发者可根据自身需求自定义组件样式，具体属性参数详见
+            <navigator class="weui-agree__link" url="">小程序开发文档</navigator>
+        </view>
+    </view>
+    <view class="index-bd">
+        <view class="kind-list">
+            <!--条件包装元素-->
+            <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+                <view class="kind-list-item">
+                    <view id="{{item.id}}" class="kind-list-item-hd {{item.open ? 'kind-list-item-hd-show' : ''}}"
+                          bindtap="kindToggle">
+                        <text class="kind-list-text">{{item.name}}</text>
+                        <image class="kind-list-img" src="./resource/kind/{{item.id}}.png"></image>
+                    </view>
+                </view>
+            </block>
+        </view>
+    </view>
+</view>
