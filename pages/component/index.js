@@ -10,7 +10,7 @@ Page({
                 id: 'view',
                 name: '视图容器',
                 open: false,
-                pages: ['view', 'scroll-view', 'swiper', 'movable-view', 'cover-view']
+                pages: ['view', 'scroll-view', 'wxs-instance', 'swiper', 'movable-view', 'cover-view']
             }, {
                 id: 'content',
                 name: '基础内容',
@@ -115,7 +115,7 @@ Page({
                 list[index].open = false
             }
         })
-        console.table(this.data.list)
+        this.setData({list})
     }
 })
 

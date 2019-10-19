@@ -1,0 +1,5 @@
+var startX = 0
+var startY = 0
+const lastLeft = lastTop = 50;
+function (event, ins) {
+}

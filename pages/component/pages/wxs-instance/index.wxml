@@ -1,0 +1,9 @@
+<!--pages/component/pages/wxs-instance/index.wxml-->
+<view>
+    <text>查看如下的 demo</text>
+</view>
+<view>
+    <navigator class="weui-agree__link" open-type="navigate" url="/pages/component/pages/wxs-instance/movable/index">
+        movable
+    </navigator>
+</view>

@@ -2,7 +2,11 @@
   "pages": [
     "pages/component/index",
     "pages/API/index",
-    "pages/cloud/index"
+    "pages/cloud/index",
+    "pages/component/pages/view/index",
+    "pages/component/pages/scroll-view/index",
+    "pages/component/pages/wxs-instance/index",
+    "pages/component/pages/wxs-instance/movable/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
